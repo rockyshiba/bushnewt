@@ -4,13 +4,22 @@ $webroot = "http://www.ghosteacher.com/bushnewt";
 $telephone_number = "905-836-4442"; 
 $email = "info@treefrog.ca";
 
+$menu_sub_items = "<ul class='menu-sub-items'>";
+$menu_sub_items .= "<li>Tertiary Item A</li><li>Tertiary Item B</li><li>Tertiary Item C</li>";
+$menu_sub_items .= "</ul>";
+
+$menu_items = "";
+$menu_items .= "<ul class='menu-items'>";
+$menu_items .= "<li>Menu item A $menu_sub_items</li><li>Menu item B $menu_sub_items</li>";
+$menu_items .= "</ul>";
+
 $nav_menu;
 $nav_menu .= "<ul class='nav-list'>";
 $nav_items = array("Home" => "#", "About" => "#", "Products" => "#", "Services" => "#", "Contact" => "#");
 
 //populate nav menu
 foreach($nav_items as $nav => $item){
-    $nav_menu .= "<li>" . "<a href='$item'>" . $nav . "</a>";
+    $nav_menu .= "<li>" . "<a href='$item'>" . $nav . $menu_items . "</a>";
 }
 
 $nav_menu .= "</ul>";

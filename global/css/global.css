@@ -36,6 +36,23 @@ header {
     width: 20%;
 }
 
+.nav-list > li:hover .menu-items{
+    display: block;
+}
+
+.menu-items > li:hover .menu-sub-items{
+    display: block;
+}
+
+.menu-items, .menu-sub-items {
+    display: none;
+    border-radius: 2px;
+    background-color: #646464;
+    color: #EFEFEF;
+}
+
+
+
 #header-banner{
     display: block;
     position: relative;
