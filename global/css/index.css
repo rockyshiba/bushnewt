@@ -1,0 +1,12 @@
+.heading-one {
+    color: #8ec642;
+}
+
+.link-button {
+    color: #EFEFEF;
+    background-color: #8ec642;
+    padding: 3px 10px 3px 10px;
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+}
