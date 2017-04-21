@@ -8,11 +8,15 @@ a {
     text-decoration: none;
     color: #646464;
 }
+
+li{
+    list-style-type: none;
+}
 /*Header*/
 header {
     display: block;
     width: 100%;
-    border-top: 3px solid #8ec642;
+    border-top: 6px solid #8ec642;
 }
 
 .tf-logo-img {
@@ -34,14 +38,28 @@ header {
 .nav-list > li {
     display: inline-block;
     width: 20%;
+    position: relative;
 }
 
 .nav-list > li:hover .menu-items{
     display: block;
+    position: absolute;
+}
+
+.menu-items > li{
+    position: relative;
+}
+
+.menu-items > li:hover, .menu-sub-items > li:hover{
+    background-color: #EFEFEF;
+    color: #8ec642;
 }
 
 .menu-items > li:hover .menu-sub-items{
     display: block;
+    position: absolute;
+    left: 101%;
+    top: 0;
 }
 
 .menu-items, .menu-sub-items {
@@ -65,3 +83,7 @@ header {
     color: #8A8A8A;
 }
 
+/*Footer*/
+footer{
+    border-top: 3px solid #8A8A8A;
+}

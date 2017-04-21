@@ -1,8 +1,8 @@
 <?php 
 $webroot = "http://www.ghosteacher.com/bushnewt";
 
-$telephone_number = "905-836-4442"; 
-$email = "info@treefrog.ca";
+$telephone_number = "<span style='color: #8ec642;'>905-836-4442</span>"; 
+$email = "<span style='color: #8ec642;'>info@treefrog.ca</span>";
 
 $menu_sub_items = "<ul class='menu-sub-items'>";
 $menu_sub_items .= "<li>Tertiary Item A</li><li>Tertiary Item B</li><li>Tertiary Item C</li>";
