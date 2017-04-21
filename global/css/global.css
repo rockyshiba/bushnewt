@@ -12,6 +12,19 @@ a {
 li{
     list-style-type: none;
 }
+
+.page-wrapper{
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+html, body{
+    height: 100%;
+}
+
+main{
+    min-height: 100%;
+}
 /*Header*/
 header {
     display: block;
@@ -85,5 +98,10 @@ header {
 
 /*Footer*/
 footer{
+    display: block;
+    min-height: 100px;
+    text-align: center;
     border-top: 3px solid #8A8A8A;
+    margin-top: -100px;
+    width: 100%;
 }
